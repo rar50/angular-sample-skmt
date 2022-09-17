@@ -8,6 +8,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { RouterModule } from '@angular/router';
+import { HelloComponent } from './hello.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [
     AppComponent,
+    HelloComponent,
     PageTopComponent,
     ProductAlertsComponent,
     ProductListComponent,
